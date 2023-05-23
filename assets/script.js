@@ -178,6 +178,11 @@ const data = {
   });
   
   window.addEventListener('scroll', () => {
-
+    const nav = document.querySelector('nav');
+    if (window.scrollY > 30 && window.innerWidth >= 768) {
+      nav.setAttribute('style', 'position: fixed; top:0 ');
+    } else {
+      nav.style.cssText = ' position: absolute, top: 30px ';
+    }
   });
   

@@ -1,7 +1,4 @@
 {
-  
-  "extends": ["stylelint-config-recommended-scss"],
-  "rules": {},
   "extends": ["stylelint-config-standard"],
   "plugins": ["stylelint-scss", "stylelint-csstree-validator"],
   "rules": {

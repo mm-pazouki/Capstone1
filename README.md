@@ -63,7 +63,7 @@ After you're finished please remove all the comments and instructions!
  First Microverse capstone project
 
 
-![screenshot](https://github.com/mm-pazouki/Capstone1/blob/main/images/screenshot-min.jpg)
+![screenshot](https://github.com/mm-pazouki/Capstone1/blob/sponsors/images/screenshot-min.jpg)
 
 This is a website for a concert. All contents are artifical and might be different from reality. 
 

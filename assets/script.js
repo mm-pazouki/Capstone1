@@ -1,5 +1,5 @@
 const data = {
-program: [
+  program: [
   {
     title: 'Joy',
     img: 'song.png',

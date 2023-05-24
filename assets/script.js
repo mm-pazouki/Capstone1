@@ -84,10 +84,10 @@ const data = {
       img: 'sponser5.png',
     },
   ],
-  };
+};
 
-  const program = document.getElementById('program');
-  if (program !== null) {
+const program = document.getElementById('program');
+if (program !== null) {
   data.program.map((el) => {
     const programItem = document.createElement('div');
     programItem.classList.add('program-item');
@@ -100,10 +100,10 @@ const data = {
   const btnBook = document.createElement('button');
   btnBook.innerHTML = 'Book your ticket now';
   program.appendChild(btnBook);
-  }
+}
 
-  const testimonial = document.getElementById('testimonial');
-  if (testimonial !== null) {
+const testimonial = document.getElementById('testimonial');
+if (testimonial !== null) {
   data.testimonial.map((el, i) => {
     const quote = document.createElement('div');
     quote.classList.add('quote');
@@ -143,22 +143,22 @@ const data = {
     }
   });
   testimonial.appendChild(btnMore);
-  }
+}
 
-  const sponsers = document.querySelector('#sponsers>ul');
-  if (sponsers != null) {
+const sponsers = document.querySelector('#sponsers>ul');
+if (sponsers != null) {
   data.sponsers.map((el) => {
     const sponser = document.createElement('li');
     sponser.innerHTML = `<a href="${el.link}"><img src="images/${el.img}" title="${el.title}" /></a>`;
     sponsers.appendChild(sponser);
     return null;
   });
-  }
+}
 
-  const menuIcon = document.querySelector('.fa-bars');
-  const menu = document.querySelector('nav>ul');
-  const page = document.querySelector('html');
-  menuIcon.addEventListener('click', () => {
+const menuIcon = document.querySelector('.fa-bars');
+const menu = document.querySelector('nav>ul');
+const page = document.querySelector('html');
+menuIcon.addEventListener('click', () => {
   menu.style.display = 'flex';
   page.style.overflow = 'hidden';
   const menuItems = document.querySelectorAll('nav li');
@@ -175,13 +175,13 @@ const data = {
     return null;
   });
   menu.appendChild(closeMenu);
-  });
+});
 
-  window.addEventListener('scroll', () => {
+window.addEventListener('scroll', () => {
   const nav = document.querySelector('nav');
   if (window.scrollY > 30 && window.innerWidth >= 768) {
     nav.setAttribute('style', 'position: fixed; top:0 ');
   } else {
     nav.style.cssText = ' position: absolute, top: 30px ';
   }
-  });
+});

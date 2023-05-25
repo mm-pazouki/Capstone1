@@ -75,7 +75,7 @@ This is a website for a concert. All contents are artifical and might be differe
 
 ## Live Demo
 
-[https://mm-pazouki.github.io/Capstone1/](https://mm-pazouki.github.io/Capstone1/)
+[https://pazouki-capstone1.netlify.app/](https://pazouki-capstone1.netlify.app/)
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
